@@ -11,14 +11,17 @@ ul {
 }
 .logo {
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
   color: #2e2f42;
   font-weight: 700;
+  cursor: auto;
 }
 span {
   color: #4d5ae5;
   font-weight: 700;
 }
 .menu {
+  cursor: auto;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -26,20 +29,85 @@ span {
   color: #434455;
   font-weight: 400;
 }
+
+.info:hover,
+.info:focus {
+  color: #404bbf;
+}
 .menu:hover {
   color: #404bbf;
 }
-.info:hover {
+
+#studio:active,
+#studio:focus {
   color: #404bbf;
+  text-decoration: underline;
+}
+.effect {
+  background-color: #2e2f42;
+}
+.effect-title {
+  font-weight: 700;
+  color: #fff;
+}
+.effect-btn {
+  background-color: #4d5ae5;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+}
+.effect-btn:hover {
+  background-color: #404bbf;
+  color: #fff;
+  font-weight: 500;
 }
 
-.menu-studio {
+.section-two-list-title {
+  color: #2e2f42;
+  font-weight: 500;
+}
+.section-two-list-text {
+  color: #434455;
+  font-weight: 400;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  color: #2e2f42;
+  font-weight: 700;
+}
+.team-list-title {
   font-weight: 500;
   color: #2e2f42;
 }
+.team-list-text {
+  font-weight: 400;
+  color: #434455;
+}
 
-.menu-studio:hover,
-.menu-studio:active {
-  color: #404bbf;
-  text-decoration: underline;
+.portfolio-list-title {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.portfolio-list-text {
+  font-weight: 400;
+  color: #434455;
+}
+footer {
+  background-color: #2e2f42;
+}
+.logo-foot {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  font-weight: 700;
+  cursor: auto;
+}
+
+footer p {
+  font-weight: 400;
+  color: #f4f4fd;
 }
