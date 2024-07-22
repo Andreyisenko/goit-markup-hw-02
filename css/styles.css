@@ -1,0 +1,45 @@
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: #2e2f42;
+  background-color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.logo {
+  text-transform: uppercase;
+  color: #2e2f42;
+  font-weight: 700;
+}
+span {
+  color: #4d5ae5;
+  font-weight: 700;
+}
+.menu {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.info {
+  color: #434455;
+  font-weight: 400;
+}
+.menu:hover {
+  color: #404bbf;
+}
+.info:hover {
+  color: #404bbf;
+}
+
+.menu-studio {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.menu-studio:hover,
+.menu-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
