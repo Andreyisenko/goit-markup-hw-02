@@ -15,7 +15,7 @@ ul {
   color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   cursor: auto;
 }
@@ -33,6 +33,10 @@ span {
 }
 .menu:hover {
   color: #404bbf;
+}
+
+.addr {
+  font-style: normal;
 }
 
 .addr-line-info {
@@ -59,7 +63,7 @@ span {
 .effect-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 
@@ -118,7 +122,7 @@ span {
 .team-list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -135,7 +139,7 @@ span {
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -156,7 +160,7 @@ footer {
   color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   cursor: auto;
 }
